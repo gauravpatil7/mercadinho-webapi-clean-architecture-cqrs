@@ -8,14 +8,20 @@ namespace MercadinhoWeb.Domain.Entities;
 
 public class Product
 {
-    public Guid Id { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set;}
-    public Decimal Price { get; set; }
-    public int Stock { get; set; }
-    public DateTime CreatedDate { get; set;}
-    public DateTime UpdatedDate { get; set;}
-    public bool Status { get; set;}
-    public Guid CategoryId { get; set;}
-    public Category Category { get; set; }
+    public Product()
+    {
+        this.Id = Guid.NewGuid();
+        this.CreatedDate = DateTime.Now;
+    }
+
+    public Guid Id { get; private set; }
+    public string Name { get; private set; }
+    public string Description { get; private set; }
+    public Decimal Price { get; private set; }
+    public int Stock { get; private set; }
+    public DateTime CreatedDate { get; private set; }
+    public DateTime UpdatedDate { get; private set; }
+    public bool Status { get; private set; }
+    public Guid CategoryId { get; private set; }
+    public Category Category { get; private set; }
 }

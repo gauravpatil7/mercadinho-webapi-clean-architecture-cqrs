@@ -1,10 +1,4 @@
-using MercadinhoWeb.Infra.Data.Context;
 using MercadinhoWeb.Infra.Ioc.DependencyInjection;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);

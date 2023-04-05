@@ -26,8 +26,6 @@ public class CreateProductRequestHandler : IRequestHandler<CreateProductRequest,
     public async Task<CreateProductResponse> Handle(CreateProductRequest request, CancellationToken cancellationToken)
     {
         Product prod = _mapper.Map<Product>(request);
-        prod.Id = Guid.NewGuid();
-        prod.CreatedDate= DateTime.Now;
 
         await _repository.SaveAsync(prod);
 

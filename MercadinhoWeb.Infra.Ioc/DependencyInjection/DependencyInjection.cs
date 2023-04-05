@@ -1,8 +1,4 @@
 ﻿using FluentValidation.AspNetCore;
-using MediatR;
-using MercadinhoWeb.Application.Commands.Requests;
-using MercadinhoWeb.Application.Commands.Responses;
-using MercadinhoWeb.Application.Handlers.CommandHandlers;
 using MercadinhoWeb.Domain.Interfaces.Caching;
 using MercadinhoWeb.Domain.Interfaces.Repositories;
 using MercadinhoWeb.Infra.Data.Caching;
@@ -14,7 +10,6 @@ using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using System.Reflection;
 
 namespace MercadinhoWeb.Infra.Ioc.DependencyInjection;
 

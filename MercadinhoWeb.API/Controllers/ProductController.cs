@@ -77,7 +77,7 @@ public class ProductsController : ControllerBase
         }
     }
 
-    [HttpDelete]
+    [HttpDelete("{id:Guid}")]
     public async Task<ActionResult> Delete(Guid id)
     {
         try
