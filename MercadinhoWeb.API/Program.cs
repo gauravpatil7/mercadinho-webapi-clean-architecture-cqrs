@@ -1,6 +1,3 @@
-using MercadinhoWeb.Infra.Ioc.DependencyInjection;
-using System.Text.Json.Serialization;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

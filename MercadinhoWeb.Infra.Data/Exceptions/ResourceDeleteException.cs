@@ -1,6 +1,4 @@
-﻿using System.Runtime.Serialization;
-
-namespace MercadinhoWeb.Infra.Data.Exceptions;
+﻿namespace MercadinhoWeb.Infra.Data.Exceptions;
 
 public class ResourceDeleteException : Exception
 {

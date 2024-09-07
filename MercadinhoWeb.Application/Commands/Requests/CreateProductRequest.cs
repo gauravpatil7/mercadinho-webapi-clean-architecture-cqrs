@@ -1,14 +1,11 @@
-﻿using MediatR;
-using MercadinhoWeb.Application.Commands.Responses;
+﻿namespace MercadinhoWeb.Application.Commands.Requests;
 
-namespace MercadinhoWeb.Application.Commands.Requests;
-
-public class CreateProductRequest : IRequest<CreateProductResponse>
+public record CreateProductRequest : IRequest<CreateProductResponse>
 {
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public decimal Price { get; set; }
-    public int Stock { get; set; }
-    public bool Status { get; set; }
-    public Guid CategoryId { get; set; }
+    public string Name { get; init; }
+    public string Description { get; init; }
+    public decimal Price { get; init; }
+    public int Stock { get; init; }
+    public bool Status { get; init; }
+    public Guid CategoryId { get; init; }
 }

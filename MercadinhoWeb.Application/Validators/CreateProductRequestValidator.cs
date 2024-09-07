@@ -1,12 +1,4 @@
-﻿using FluentValidation;
-using MercadinhoWeb.Application.Commands.Requests;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MercadinhoWeb.Application.Validators;
+﻿namespace MercadinhoWeb.Application.Validators;
 
 public class CreateProductRequestValidator : AbstractValidator<CreateProductRequest>
 {

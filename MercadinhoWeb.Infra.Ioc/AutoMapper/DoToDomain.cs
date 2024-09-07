@@ -1,10 +1,4 @@
-﻿using AutoMapper;
-using MercadinhoWeb.Application.Commands.Requests;
-using MercadinhoWeb.Application.Commands.Responses;
-using MercadinhoWeb.Application.Queries.Responses;
-using MercadinhoWeb.Domain.Entities;
-
-namespace MercadinhoWeb.Infra.Ioc.AutoMapper;
+﻿namespace MercadinhoWeb.Infra.Ioc.AutoMapper;
 
 public class DtoToDomain : Profile
 {

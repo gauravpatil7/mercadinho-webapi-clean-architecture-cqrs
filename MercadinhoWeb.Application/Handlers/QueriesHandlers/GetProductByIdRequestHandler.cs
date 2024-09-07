@@ -1,17 +1,4 @@
-﻿using AutoMapper;
-using MediatR;
-using MercadinhoWeb.Application.Queries.Requests;
-using MercadinhoWeb.Application.Queries.Responses;
-using MercadinhoWeb.Domain.Interfaces.Caching;
-using MercadinhoWeb.Domain.Interfaces.Repositories;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MercadinhoWeb.Application.Handlers.QueriesHandlers;
+﻿namespace MercadinhoWeb.Application.Handlers.QueriesHandlers;
 
 public class GetProductByIdRequestHandler : IRequestHandler<GetProductByIdQuery, GetProductByIdResponse>
 {

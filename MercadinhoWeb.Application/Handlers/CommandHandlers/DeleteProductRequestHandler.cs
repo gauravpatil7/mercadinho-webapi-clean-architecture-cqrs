@@ -1,14 +1,4 @@
-﻿using AutoMapper;
-using MediatR;
-using MercadinhoWeb.Application.Commands.Requests;
-using MercadinhoWeb.Domain.Interfaces.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MercadinhoWeb.Application.Handlers.CommandHandlers
+﻿namespace MercadinhoWeb.Application.Handlers.CommandHandlers
 {
     public class DeleteProductRequestHandler : IRequestHandler<DeleteProductRequest>
     {

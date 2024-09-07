@@ -1,0 +1,11 @@
+﻿global using MediatR;
+global using MercadinhoWeb.Application.Commands.Responses;
+global using AutoMapper;
+global using MercadinhoWeb.Application.Commands.Requests;
+global using MercadinhoWeb.Domain.Entities;
+global using MercadinhoWeb.Domain.Interfaces.Repositories;
+global using MercadinhoWeb.Application.Queries.Requests;
+global using MercadinhoWeb.Application.Queries.Responses;
+global using MercadinhoWeb.Domain.Interfaces.Caching;
+global using Newtonsoft.Json;
+global using FluentValidation;

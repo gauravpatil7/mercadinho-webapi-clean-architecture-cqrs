@@ -1,15 +1,4 @@
-﻿using MercadinhoWeb.Domain.Entities;
-using MercadinhoWeb.Domain.Interfaces.Repositories;
-using MercadinhoWeb.Infra.Data.Context;
-using MercadinhoWeb.Infra.Data.Exceptions;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MercadinhoWeb.Infra.Data.Repositories;
+﻿namespace MercadinhoWeb.Infra.Data.Repositories;
 
 public class ProductRepository: IProductRepository
 {

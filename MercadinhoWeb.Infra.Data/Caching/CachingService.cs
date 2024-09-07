@@ -1,15 +1,4 @@
-﻿using MercadinhoWeb.Domain.Interfaces.Caching;
-using Microsoft.Extensions.Caching.Distributed;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using StackExchange.Redis;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MercadinhoWeb.Infra.Data.Caching;
+﻿namespace MercadinhoWeb.Infra.Data.Caching;
 
 public class CachingService : ICachingService
 {

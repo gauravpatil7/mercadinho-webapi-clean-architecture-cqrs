@@ -1,10 +1,4 @@
-﻿using MediatR;
-using MercadinhoWeb.Application.Commands.Requests;
-using MercadinhoWeb.Application.Queries.Requests;
-using MercadinhoWeb.Infra.Data.Exceptions;
-using Microsoft.AspNetCore.Mvc;
-
-namespace MercadinhoWeb.API.Controllers;
+﻿namespace MercadinhoWeb.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

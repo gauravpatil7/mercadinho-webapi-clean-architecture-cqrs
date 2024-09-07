@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MercadinhoWeb.Application.Commands.Responses
+﻿namespace MercadinhoWeb.Application.Commands.Responses
 {
     public class CreateProductResponse
     {

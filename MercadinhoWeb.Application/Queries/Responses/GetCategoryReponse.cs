@@ -1,8 +1,4 @@
-﻿using Newtonsoft.Json;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-
-namespace MercadinhoWeb.Application.Queries.Responses;
+﻿namespace MercadinhoWeb.Application.Queries.Responses;
 
 public class GetCategoryReponse
 {
