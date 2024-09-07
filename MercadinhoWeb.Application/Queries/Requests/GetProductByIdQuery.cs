@@ -1,6 +1,6 @@
 ﻿namespace MercadinhoWeb.Application.Queries.Requests
 {
-    public record GetProductByIdQuery : IRequest<GetProductByIdResponse>   
+    public record GetProductByIdQuery : IRequest<GetProductByIdResponse>
     {
         public GetProductByIdQuery(Guid id)
         {
